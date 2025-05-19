@@ -10,7 +10,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
   const [error, setError] = useState();
 
   useEffect(() => {
-    setIsFetching(true);
+    //setIsFetching(true);
     async function fetchPlaces() {
       try {
         const places = await fetchAvailablePlaces();
